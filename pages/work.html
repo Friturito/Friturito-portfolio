@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Friturito | Ricardo Gonzalez</title>
+    <link rel="icon" type="image/x-icon" href="/public/Favicon.png" />
+
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="/scripts/menu.js"></script>
+  </head>
+  <body>
+    <button class="ThemeChanger">
+      <img src="/public/sun.png" alt="" class="logoTheme" />
+    </button>
+    <nav class="navBar">
+      <div class="logoDiv">
+        <a href="/index.html"
+          ><img src="/public/Logo.svg" alt="" class="logo"
+        /></a>
+        <div class="title">
+          <span class="bold">Ricardo Gonzalez</span>
+          <span>Friturito</span>
+        </div>
+      </div>
+
+      <div class="separador"></div>
+      <div class="menu">
+        <a class="linkfull" href="/index.html">Home</a>
+        <a class="linkfull" href="#">Work</a>
+        <a class="linkfull" href="#">Case Studies</a>
+        <a class="linkfull" href="/pages/contact.html">Contact</a>
+        <div class="menuSocial">
+          <a href="https://github.com/friturito" class="nopadding">
+            <img src="/public/logos_github.png" alt="" class="SocialLogoNav"
+          /></a>
+          <a href="https://twitter.com/friturito" class="nopadding">
+            <img src="/public/logos_twitter.png" alt="" class="SocialLogoNav"
+          /></a>
+          <a href="https://www.linkedin.com/in/ricardogonz/" class="nopadding">
+            <img src="/public/logos_linkedin.png" alt="" class="SocialLogoNav"
+          /></a>
+        </div>
+      </div>
+      <img
+        src="/public/burguer.svg"
+        class="burguer"
+        alt=""
+        onclick="menulogic()"
+      />
+      <ul id="menures">
+        <a href="/index.html"> <li class="link">Home</li></a>
+        <a href="/pages/work.html"> <li class="link">Work</li> </a>
+        <a href=""> <li class="link">Case Studies</li> </a>
+        <a href="/pages/contact.html"> <li class="link">Contact</li> </a>
+        <a href="https://github.com/friturito">
+          <li class="link">Github 🢅</li>
+        </a>
+        <a href="https://twitter.com/friturito">
+          <li class="link">Twitter 🢅</li>
+        </a>
+        <a href="https://www.linkedin.com/in/ricardogonz">
+          <li class="link">Linkedin 🢅</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="main" id="work">
+      <h1 class="mainTitle maintop main-work-title text-shadow-title">
+        I'm a <span class="blue">designer</span> and
+        <span class="red">developer</span> who defines
+        <span class="green">brands</span> , builds
+        <span class="orange">interfaces</span>, and codes
+        <span class="lightRed">websites.</span>
+      </h1>
+      <img src="" alt="" />
+      <p class="mainSubtitle">
+        Helping clients from 🇨🇴 Colombia 🇵🇪 Peru,🇺🇸 the United States, 🇨🇱 Chile
+        🇲🇽 Mexico, 🇬🇧 the United Kingdom, 🇮🇹 Italy,and even 🇻🇪 Venezuela.
+      </p>
+      <div class="button">
+        <button class="buttonI btnBlueGrd animatedGrad">
+          <a href="/pages/work-branding.html">Browse Skills</a>
+        </button>
+        <button class="buttonI btnTrasparent"><a href="/pages/contact.html">Contact</a></button>
+      </div>
+      <div class="tools">
+        <a href="/pages/work-branding.html" class="containerT c1 black">
+          <div class="tool-text">
+            <b>1.Brading</b>
+            <p class="pTool">Visual identity & Logo design</p>
+          </div>
+          <div class="separadortool"></div>
+          <div class="toolImg">
+            <img
+              class="end"
+              src="/public/fluent-emoji_fountain-pen.png"
+              alt=""
+            />
+            <img class="end" src="/public/logos_adobe-illustrator.png" alt="" />
+          </div>
+        </a>
+
+        <a href="/pages/work-ui.html" class="containerT c2 black">
+          <div class="tool-text">
+            <b>2.UI/UX Design</b>
+            <p class="pTool">Design Systems & Smart Interfaces</p>
+          </div>
+          <div class="separadortool"></div>
+          <div class="toolImg">
+            <img class="end" src="/public/logos_figma.png" alt="" />
+            <img class="end" src="/public/logos_adobe-photoshop.png" alt="" />
+          </div>
+        </a>
+        <a href="/pages/work-html.html" class="containerT c3 black">
+          <div class="tool-text">
+            <b> 3. HTML & CSS</b>
+            <p class="pTool">Interactive Experiences & Responsives Layouts</p>
+          </div>
+          <div class="separadortool"></div>
+          <div class="toolImg">
+            <img
+              class="end"
+              src="/public/vscode-icons_file-type-html.png"
+              alt=""
+            />
+            <img
+              class="end"
+              src="/public/vscode-icons_file-type-css.png"
+              alt=""
+            />
+          </div>
+        </a>
+       <!--  <a href="#" class="containerT c4 black">
+          <div class="tool-text">
+            <b>4. Javascript</b>
+            <p class="pTool">Frontend Development & Single Page Apps</p>
+          </div>
+          <div class="separadortool"></div>
+          <div class="toolImg">
+            <img class="end" src="/public/logos_react.png" alt="" />
+            <img class="end" src="/public/logos_javascript.png" alt="" />
+          </div>
+        </a>
+        -->
+        <a href="#" class="black containerT c5">
+          <div class="tool-text">
+            <b>4. Backend</b>
+            <p class="pTool">Content Managements Systems & Dynamic Websites</p>
+          </div>
+          <div class="separadortool"></div>
+          <div class="toolImg">
+            <img class="end" src="/public/bi_wordpress.png" alt="" />
+            <img class="end" src="/public/node.js.png" alt="" />
+          </div>
+        </a>
+      </div>
+      
+    <script src="/scripts/randomTitle.js"></script>
+    <script src="/scripts/themeChanger.js"></script>
+  </body>
+</html>

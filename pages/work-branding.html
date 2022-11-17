@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Friturito | Ricardo Gonzalez</title>
+    <link rel="icon" type="image/x-icon" href="/public/Favicon.png" />
+
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="/scripts/menu.js"></script>
+  </head>
+  <body>
+    <button class="ThemeChanger">
+      <img src="/public/sun.png" alt="" class="logoTheme" />
+    </button>
+    <nav class="navBar">
+      <div class="logoDiv">
+        <a href="/index.html"
+          ><img src="/public/Logo.svg" alt="" class="logo"
+        /></a>
+        <div class="title">
+          <span class="bold">Ricardo Gonzalez</span>
+          <span>Friturito</span>
+        </div>
+      </div>
+
+      <div class="separador"></div>
+      <div class="menu">
+        <a class="linkfull" href="/index.html">Home</a>
+        <a class="linkfull" href="/pages/work.html">Work</a>
+        <a class="linkfull" href="#">Case Studies</a>
+        <a class="linkfull" href="/pages/contact.html">Contact</a>
+        <div class="menuSocial">
+          <a href="https://github.com/friturito" class="nopadding">
+            <img src="/public/logos_github.png" alt="" class="SocialLogoNav"
+          /></a>
+          <a href="https://twitter.com/friturito" class="nopadding">
+            <img src="/public/logos_twitter.png" alt="" class="SocialLogoNav"
+          /></a>
+          <a href="https://www.linkedin.com/in/ricardogonz/" class="nopadding">
+            <img src="/public/logos_linkedin.png" alt="" class="SocialLogoNav"
+          /></a>
+        </div>
+      </div>
+      <img
+        src="/public/burguer.svg"
+        class="burguer"
+        alt=""
+        onclick="menulogic()"
+      />
+      <ul id="menures">
+        <a href="/index.html"> <li class="link">Home</li></a>
+        <a href="/pages/work.html"> <li class="link">Work</li> </a>
+        <a href=""> <li class="link">Case Studies</li> </a>
+        <a href="/pages/contact.html"> <li class="link">Contact</li> </a>
+        <a href="https://github.com/friturito">
+          <li class="link">Github 🢅</li>
+        </a>
+        <a href="https://twitter.com/friturito">
+          <li class="link">Twitter 🢅</li>
+        </a>
+        <a href="https://www.linkedin.com/in/ricardogonz">
+          <li class="link">Linkedin 🢅</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="main" id="work">
+      <h1 class="mainTitle maintop main-work-title text-shadow-title">
+        As a graphic designer, I create logotypes and icons to develop the visual identity of startups and digital companies.
+      </h1>
+      <div class="button">
+        <button class="buttonI btnTrasparent"><a href="/pages/contact.html">Contact</a></button>
+        <button class="buttonI btnBlueGrd animatedGrad">
+          <a href="/pages/work-ui.html">UI/UX Design →</a>
+        </button>
+    </div>
+  <div id="work-container">
+    <img src="/public/work-brading-logos.svg" alt="" class="work-block-img "/>
+    <img src="/public/Logos-branding-brand.jpg" alt="" class="work-block-img " >
+  </div>
+      
+    <script src="/scripts/randomTitle.js"></script>
+    <script src="/scripts/themeChanger.js"></script>
+  </body>
+</html>

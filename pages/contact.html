@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Friturito | Ricardo Gonzalez</title>
+    <link rel="icon" type="image/x-icon" href="/public/Favicon.png" />
+
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="/scripts/menu.js"></script>
+  </head>
+  <body>
+    <button class="ThemeChanger">
+      <img src="/public/sun.png" alt="" class="logoTheme" />
+    </button>
+    <nav class="navBar">
+      <div class="logoDiv">
+        <a href="/index.html"
+          ><img src="/public/Logo.svg" alt="" class="logo"
+        /></a>
+        <div class="title">
+          <span class="bold">Ricardo Gonzalez</span>
+          <span>Friturito</span>
+        </div>
+      </div>
+
+      <div class="separador"></div>
+      <div class="menu">
+        <a class="linkfull" href="/index.html">Home</a>
+        <a class="linkfull" href="/pages/work.html">My Work</a>
+        <a class="linkfull" href="#">Case Studies</a>
+        <a class="linkfull" href="#">Contact</a>
+        <div class="menuSocial">
+          <a
+            target="_blank"
+            href="https://github.com/friturito"
+            class="nopadding"
+          >
+            <img src="/public/logos_github.png" alt="" class="SocialLogoNav"
+          /></a>
+          <a
+            target="_blank"
+            href="https://twitter.com/friturito"
+            class="nopadding"
+          >
+            <img src="/public/logos_twitter.png" alt="" class="SocialLogoNav"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/ricardogonz/"
+            class="nopadding"
+          >
+            <img src="/public/logos_linkedin.png" alt="" class="SocialLogoNav"
+          /></a>
+        </div>
+      </div>
+      <img
+        src="/public/burguer.svg"
+        class="burguer"
+        alt=""
+        onclick="menulogic()"
+      />
+      <ul id="menures">
+        <a href="/index.html"> <li class="link">Home</li></a>
+        <a href="/pages/work.html"> <li class="link">My Work</li> </a>
+        <a href=""> <li class="link">Case Studies</li> </a>
+        <a href=""> <li class="link">Contact</li> </a>
+        <a target="_blank" href="https://github.com/friturito">
+          <li class="link">Github 🢅</li>
+        </a>
+        <a target="_blank" href="https://twitter.com/friturito">
+          <li class="link">Twitter 🢅</li>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/ricardogonz">
+          <li class="link">Linkedin 🢅</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="main" id="home">
+      <h1 class="mainTitle maintop contactMail">
+        elfriturito@gmail.com
+      </h1>
+      
+    </div>
+    
+      <footer class="footer">
+        <p><a href="/index.html">Home</a></p>
+        <p>
+          <a target="_blank" href="https://github.com/friturito"> Github</a>
+        </p>
+        <p>
+          <a target="_blank" href="https://twitter.com/friturito"> Twitter</a>
+        </p>
+        <p>
+          <a target="_blank" href="https://www.linkedin.com/in/ricardogonz">
+            Linkedin</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="/scripts/randomTitle.js"></script>
+    <script src="/scripts/themeChanger.js"></script>
+  </body>
+</html>
